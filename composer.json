@@ -1,0 +1,44 @@
+{
+  "name": "mfeinbier/craft3-fp-backgrounds",
+  "description": "Use FocalPoint for responsive background positioning in Craft CMS",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "focalpoint",
+    "background",
+    "responsive",
+    "cms",
+    "craftcms",
+    "flysystem",
+    "twig",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Feinbier",
+      "homepage": "https://feinbier.io/"
+    }
+  ],
+  "support": {
+    "email": "info@feinbier.net"
+  },
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\fpbackgrounds\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "extra": {
+    "name": "FocalPoint backgrounds",
+    "handle": "fpbackgrounds"
+  }
+}
