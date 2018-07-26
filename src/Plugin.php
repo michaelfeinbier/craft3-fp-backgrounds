@@ -18,6 +18,6 @@ class Plugin extends \craft\base\Plugin
         parent::init();
         // Load custom filters
         $formatter = new FocalPointFormatter();
-        Craft::$app->view->twig->addExtension(new FocalPointTwigExtensions($formatter));
+        Craft::$app->view->registerTwigExtension(new FocalPointTwigExtensions($formatter));
     }
 }
